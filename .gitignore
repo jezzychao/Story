@@ -1,0 +1,4 @@
+*.opendb
+x64
+.vs/
+GeneratedFiles
