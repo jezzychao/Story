@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Dialog</class>
- <widget class="QDialog" name="Dialog">
+ <class>DialogsEdit</class>
+ <widget class="QDialog" name="DialogsEdit">
   <property name="windowModality">
    <enum>Qt::NonModal</enum>
   </property>
@@ -413,7 +413,7 @@
   <connection>
    <sender>btnSaveClose</sender>
    <signal>clicked()</signal>
-   <receiver>Dialog</receiver>
+   <receiver>DialogsEdit</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
