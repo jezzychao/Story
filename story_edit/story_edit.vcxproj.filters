@@ -34,6 +34,12 @@
     <Filter Include="Source Files\Data">
       <UniqueIdentifier>{a5d5f941-62e1-45d2-95f7-f86343033e0a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{3db14d2c-fd30-4eda-9ef6-b6941528d745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graph">
+      <UniqueIdentifier>{09d60c4b-6c5a-4e22-86f0-fe6f4fab1e17}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -45,10 +51,16 @@
     <ClCompile Include="DialogsEdit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Trigger.cpp">
+    <ClCompile Include="Dialog.cpp">
       <Filter>Source Files\Data</Filter>
     </ClCompile>
-    <ClCompile Include="Dialog.cpp">
+    <ClCompile Include="TriggerDataSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerTree.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerGraph.cpp">
       <Filter>Source Files\Data</Filter>
     </ClCompile>
   </ItemGroup>
@@ -79,6 +91,21 @@
     </ClInclude>
     <ClInclude Include="Dialog.h">
       <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="v2.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerDataSource.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerTree.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerGraph.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\Graph</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -117,7 +117,9 @@
     <ClCompile Include="DialogsEdit.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StoryEdit.cpp" />
-    <ClCompile Include="Trigger.cpp" />
+    <ClCompile Include="TriggerDataSource.cpp" />
+    <ClCompile Include="TriggerGraph.cpp" />
+    <ClCompile Include="TriggerTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="StoryEdit.h" />
@@ -137,7 +139,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dialog.h" />
+    <ClInclude Include="Graph.h" />
     <ClInclude Include="Trigger.h" />
+    <ClInclude Include="TriggerDataSource.h" />
+    <ClInclude Include="TriggerGraph.h" />
+    <ClInclude Include="TriggerTree.h" />
+    <ClInclude Include="v2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

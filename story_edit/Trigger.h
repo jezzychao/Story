@@ -1,11 +1,10 @@
 #pragma once
 #include <qstring.h>
-class Trigger
+#include <qlist.h>
+#include "v2.h"
+
+struct Trigger
 {
-public:
-	Trigger();
-	~Trigger();
-private:
 	//触发器的ID
 	int id;
 	//触发器的类型，定义在Config.json中
@@ -14,7 +13,12 @@ private:
 	QString param;
 	//触发器激活条件
 	QString condition;
+	//和其他的数据关联
+	QList<Trigger*> children;
 	//备注说明
 	QString remark;
+	//当前触发器模块所在视图坐标
+	v2 position;
 };
+
 
